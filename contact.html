@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact - Cafe Boutique</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/logo.png" alt="Logo"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="firstlastname">First Name and Last Name</label>
+                <input type="text" id="firstlastname" class="input-padron" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="Telephone">Telephone number</label>
+                <input type="tel" id="Telephone" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Message</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                
+                <fieldset>
+                    <legend>How would you like us to contact you?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telephone"><input type="radio" name="contacto" value="telephone" id="radio-telephone">Telephone number</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+               
+                <fieldset>
+                    <legend>What time of day would you prefer to be assisted?</legend>
+                <select>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>Would you like to receive updates from Cafe Boutique?</label>                
+                
+                <input type="submit" value="Submit form" class="send">
+
+            </form>
+
+        </main>
+        <footer>
+            <img src="img/white-logo.png"  alt="Coffee Boutique logo">
+            <div class="red-social">
+                <a href="https://www.facebook.com/bahamcafemx/">
+                    <img src="img/facebook.png" alt="Facebook icon">
+                  </a>
+                <a href="https://www.instagram.com/bahamcafemx/">
+                    <img src="img/instagram.png" alt="Instagram icon">
+                  </a>
+
+            </div>
+            <p class="copyright"><em>Cafe Boutique - 2020</em></p>
+        </footer>
+        
+    </body>
+</html>
