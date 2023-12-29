@@ -241,6 +241,7 @@ a.text-reset {
     text-decoration: none;
 }
 
+
 /*JAVA SCRIPT*/
 
 .msg-container{
@@ -248,4 +249,43 @@ a.text-reset {
     align-items: center;
     justify-content: center;
     height: 100%;
+    padding-top: 20px;
+}
+
+#welcome-msg {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.container-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.day {
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day-title {
+    font-weight: bold;
+    color: black;
+}
+
+.schedule {
+    margin-top: 10px;
 }

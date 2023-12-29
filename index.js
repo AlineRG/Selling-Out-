@@ -4,8 +4,8 @@ function checkHour() {
     const closingHour = 18; 
 
     const message = currentHour >= openingHour && currentHour < closingHour
-        ? 'We are open!'
-        : 'Sorry, we are close.';
+        ? 'WE ARE OPEN!'
+        : 'SORRY, WE ARE CLOSE.';
 
     let msg = document.getElementById("welcome-msg");
     msg.innerText = message;
