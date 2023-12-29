@@ -236,3 +236,9 @@ td,th{
     margin: 1em auto;
 }
 
+/*FOOTER*/
+
+a.text-reset {
+    text-decoration: none;
+}
+
