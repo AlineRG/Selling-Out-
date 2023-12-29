@@ -242,3 +242,11 @@ a.text-reset {
     text-decoration: none;
 }
 
+/*JAVA SCRIPT*/
+
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
